@@ -1,0 +1,33 @@
+body {
+  background-image: url('');
+  background-repeat:no-repeat;
+}
+
+/* html */
+h1 {
+  font-family: cursive;
+  color: red;
+  text-align: center;
+}
+
+.day {
+  color: yellow;
+}
+
+.emphasise {
+  font-style: italic;
+}
+
+#night {
+  color: darkblue;
+}
+
+/* Class */
+.exciting {
+
+}
+
+/* ID */
+#cool {
+
+}
