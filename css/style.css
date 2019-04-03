@@ -1,33 +1,70 @@
 body {
-  background-image: url('');
-  background-repeat:no-repeat;
+  background-image: url('https://3.imimg.com/data3/MU/WH/MY-9440327/1-500x500.jpg');
+}
+
+
+#carouselExampleControls{
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  width:4000px;
+  height:2064;
+
+}
+
+.center {
+  margin: 60px;
+  border: 8px ;
+  padding: 10px;
+}
+
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+div.gallery:hover {
+  border: 2px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: 100px;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+  background-color: black;
+}
+
+h6{
+  color: white;
 }
 
 /* html */
 h1 {
-  font-family: cursive;
-  color: red;
+  font-family: 'Lobster', cursive;
+  color:black;
   text-align: center;
 }
 
-.day {
-  color: yellow;
+/*own.html*/
+#slideshow {
+  margin: 80px auto;
+  position: relative;
+  width: 240px;
+  height: 240px;
+  padding: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
 }
 
-.emphasise {
-  font-style: italic;
-}
-
-#night {
-  color: darkblue;
-}
-
-/* Class */
-.exciting {
-
-}
-
-/* ID */
-#cool {
-
+#slideshow > div {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  right: 10px;
+  bottom: 10px;
 }
