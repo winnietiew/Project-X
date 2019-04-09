@@ -12,6 +12,7 @@
   	<link href="https://fonts.googleapis.com/css?family=Noto+Sans+TC" rel="stylesheet">
   	<link rel="stylesheet",type="text/css" href="css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Sree+Krushnadevaraya" rel="stylesheet">
     <title>BE PART OF THE MAGIC AND JOIN US</title>
   </head>
   <body>
@@ -29,16 +30,8 @@
       <li class="nav-item">
         <a class="nav-link" href="story.html">GALLERY</a>
       </li>
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          JOIN THE COMMUNITY
+      <a class="nav-link" href="contact-us.html">JOIN THE COMMUNITY</a>
         </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="#">CONTACT</a>
-          <a class="dropdown-item" href="#">BRANCHES</a>
-          <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="#">COMMUNITY</a>
-        </div>
       </li>
       <li class="nav-item">
         <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
@@ -51,7 +44,38 @@
     </div>
     </nav>
 
-    <h1>Be part of the magic and join us</h1>
+    <h1 class="animated jackInTheBox">Be part of the magic and join us</h1>
+    <hr/>
+<center><img src="https://ichef.bbci.co.uk/news/660/cpsprodpb/F03C/production/_105500516_rtswr3a-2.jpg" alt=""></center>
+    <hr/>
+    <div class="container">
+  <form action="action_page.php">
+
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="email">Email address</label>
+    <input type="text" id="email" name="email" placeholder="Your email address..">
+
+    <label for="country">Country</label>
+    <select id="country" name="country">
+      <option value="australia">Australia</option>
+      <option value="europe">Europe</option>
+      <option value="usa">USA</option>
+      <option value="uk">UK</option>
+
+    </select>
+
+    <label for="subject">What would you like to write about?</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+
+  </form>
+</div>
 
 
 
