@@ -40,6 +40,18 @@ div.desc {
   background-color: black;
 }
 
+h1{
+font-family: cursive
+}
+
+h1 {
+  font-style: oblique;
+}
+
+h2{
+  font-style: oblique;
+}
+
 h6{
   color: white;
 }
