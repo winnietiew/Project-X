@@ -1,16 +1,17 @@
 body {
   background-color: pink;
+  font-family: sree Krushnadevaraya;
 }
-
 
 #carouselExampleControls{
   align-items: center;
   padding-left: 20px;
   padding-right: 20px;
-  width:4000px;
+  width:2000px;
   height:2064;
 
 }
+
 
 .center {
   margin: 60px;
@@ -40,8 +41,15 @@ div.desc {
   background-color: black;
 }
 
-h1{
-font-family: cursive
+.navbar-custom .nav-item.active .nav-link,
+.navbar-custom .nav-item:hover .nav-link {
+    color: yellow;
+}
+
+.navbar-custom .nav-item.active .nav-link,
+.navbar-custom .nav-item:hover .nav-link {
+        color: yellow;
+}
 }
 
 h1 {
@@ -62,7 +70,7 @@ font-size: 20px}
 
 /* html */
 h1 {
-  font-family: 'Lobster', cursive;
+  font-family: 'Lobster';
   color:black;
   text-align: center;
 }
